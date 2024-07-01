@@ -6,21 +6,28 @@
 
 <head>
     <title>Moja stranka</title>
-    
+    <!-- prvý metatag je na to aby sa stránka scalovala pre mobily-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body> 
+<body style="background-color: black;color: white;"> 
 
 
     
-    <h1>Text</h1>
-        <hr>
+    <h1 style="color: #d30909;">Skúšobná stránka</h1> 
+    <a style="color: gold;" href="page2.html" target="_self" >Link na main stránku</a>
     
-    <img src="obrazok.jpg" width="700" alt="Bunker brno" title="Brno spomienky">
-        <br>
-    <audio controls loop src="cradles.mp3"></audio>
+    <hr>
+    
+    <img src="/web/subory/fotky/obrazok.jpg" width="700" alt="Bunker brno" title="Brno spomienky">
+       
+    <br>
+    <audio controls loop src="/web/subory/cradles.mp3"></audio>
 
-    <video controls width="700" src="video.webm"></video>
+    <video controls width="700">
+        <source src="/web/subory/video.mp4">
+        <source src="/web/subory/video.webm">
+    </video>
     <h1>list</h1>
     <ul>
         <li>cislo1</li>  
@@ -45,13 +52,32 @@
 
 
     </dl>
+    <div style="background-color: red;color: red;">
+    <p>toto je tajná správa o ktorej si nemal vedieť, lebo teraz po tebe pôjde NAKA</p>
+    <p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. <span style="color: red;background-color: black;">Recusandae harum dolore, fuga laudantium earum possimus adipisci doloremque, cumque asperiores autem at, porro esse quo sit reprehenderit?</span> Saepe laudantium sint amet.</p>
+    <p>Už sa bojíš? Zem je plochá ale všetci ti to taja, lebo chcú aby</p>
+    </div>
 
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae harum dolore, fuga laudantium earum possimus adipisci doloremque, cumque asperiores autem at, porro esse quo sit reprehenderit? Saepe laudantium sint amet.</p>
 
-
-
-    <a href="page2.html" target="_self" >Link na main stránku</a>
+    <table bgcolor="black" width="1200">
+        <tr bgcolor="green">
+            <th width="100">Header</th>
+            <th width="100">header2</th>
+            <th width="1000">háder3</th>
+        </tr>
+        <tr bgcolor="cyan" align="center">
+            <td>table data</td>
+            <td>data2</td>
+            <td>prosrete</td>
+        </tr>
+        <tr bgcolor="yellow" align="center">
+            <td>treti radek</td>
+            <td>third row</td>
+            <td>klamlosti dlha vec</td>
+        </tr>
+    </table>
+    
 
 
 
